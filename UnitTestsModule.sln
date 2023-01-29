@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestsModule.TestsInfras
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestsModule.Repository", "UnitTestsModule.Repository\UnitTestsModule.Repository.csproj", "{ABFFC5A0-FC35-4652-A6CA-C2F5E34E962B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestsModule.RepositoryTests", "UnitTestsModule.RepositoryTests\UnitTestsModule.RepositoryTests.csproj", "{ABAE725E-B168-4706-9F75-D41418DBB36D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{ABFFC5A0-FC35-4652-A6CA-C2F5E34E962B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ABFFC5A0-FC35-4652-A6CA-C2F5E34E962B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ABFFC5A0-FC35-4652-A6CA-C2F5E34E962B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABAE725E-B168-4706-9F75-D41418DBB36D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABAE725E-B168-4706-9F75-D41418DBB36D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABAE725E-B168-4706-9F75-D41418DBB36D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABAE725E-B168-4706-9F75-D41418DBB36D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
