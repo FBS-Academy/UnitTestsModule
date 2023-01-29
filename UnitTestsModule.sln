@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestsModule.Application", "UnitTestsModule.Application\UnitTestsModule.Application.csproj", "{E33A72AB-73DA-4215-AC5D-2C22DF33065F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTestsModule.Application", "UnitTestsModule.Application\UnitTestsModule.Application.csproj", "{E33A72AB-73DA-4215-AC5D-2C22DF33065F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestsModule.Domain", "UnitTestsModule.Domain\UnitTestsModule.Domain.csproj", "{56719E91-3470-4B14-9D04-45EE7562C985}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTestsModule.Domain", "UnitTestsModule.Domain\UnitTestsModule.Domain.csproj", "{56719E91-3470-4B14-9D04-45EE7562C985}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestsModule.ApplicationTests", "UnitTestsModule.ApplicationTests\UnitTestsModule.ApplicationTests.csproj", "{1E30CA91-443B-41D4-A445-68CA7C4B4552}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTestsModule.ApplicationTests", "UnitTestsModule.ApplicationTests\UnitTestsModule.ApplicationTests.csproj", "{1E30CA91-443B-41D4-A445-68CA7C4B4552}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestsModule.TestsInfrastruture", "UnitTestsModule.TestsInfrastruture\UnitTestsModule.TestsInfrastruture.csproj", "{6C88E2D9-4950-4156-88C5-9FA0282C77B4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{1E30CA91-443B-41D4-A445-68CA7C4B4552}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E30CA91-443B-41D4-A445-68CA7C4B4552}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E30CA91-443B-41D4-A445-68CA7C4B4552}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C88E2D9-4950-4156-88C5-9FA0282C77B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C88E2D9-4950-4156-88C5-9FA0282C77B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C88E2D9-4950-4156-88C5-9FA0282C77B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C88E2D9-4950-4156-88C5-9FA0282C77B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
